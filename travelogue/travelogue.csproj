@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{6FC9709B-AECD-4DDE-B1A4-2DF7285234FD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>travelogue</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AssemblyName>travelogue</AssemblyName>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Plugin.CurrentActivity">
+      <HintPath>..\packages\Plugin.CurrentActivity.1.0.1\lib\MonoAndroid10\Plugin.CurrentActivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Permissions.Abstractions">
+      <HintPath>..\packages\Plugin.Permissions.1.1.7\lib\MonoAndroid10\Plugin.Permissions.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="System.Data" />
+    <Reference Include="Facebook">
+      <HintPath>..\..\..\..\..\..\Program Files %28x86%29\Xamarin Studio\facebook-sdk-6.2.2\lib\android\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Client.2.0.1\lib\monoandroid\Microsoft.WindowsAzure.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile.Ext, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Client.2.0.1\lib\monoandroid\Microsoft.WindowsAzure.Mobile.Ext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\monoandroid\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\monoandroid\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Insights">
+      <HintPath>..\packages\Xamarin.Insights.1.12.3\lib\MonoAndroid10\Xamarin.Insights.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Geolocator, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Xam.Plugin.Geolocator.3.0.4\lib\MonoAndroid10\Plugin.Geolocator.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Geolocator.Abstractions, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Xam.Plugin.Geolocator.3.0.4\lib\MonoAndroid10\Plugin.Geolocator.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="imageAdapter.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Models\Content.cs" />
+    <Compile Include="PhotoGridActivity.cs" />
+    <Compile Include="ProfileEditPage.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingActivity.cs" />
+    <Compile Include="SignUpActivity.cs" />
+    <Compile Include="ProfileActivity.cs" />
+    <Compile Include="LogInActivity.cs" />
+    <Compile Include="AboutPageActivity.cs" />
+    <Compile Include="NewsList.cs" />
+    <Compile Include="NewsPage.cs" />
+    <Compile Include="News.cs" />
+    <Compile Include="Resources\SearchPageActivity.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="AddNewsActivity.cs" />
+    <Compile Include="DescriptionActivity.cs" />
+    <Compile Include="SearchListActivity.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="ServieReturnModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="packages.config" />
+    <AndroidResource Include="Resources\layout\ProfileEditLayout.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\bgproject.jpg" />
+    <AndroidResource Include="Resources\drawable\bgproject1.jpg" />
+    <AndroidResource Include="Resources\drawable\bgcover.jpg" />
+    <AndroidResource Include="Resources\drawable\bgactionbar.jpg" />
+    <AndroidResource Include="Resources\drawable\textbackground.xml" />
+    <AndroidResource Include="Resources\drawable\searchbg.png" />
+    <AndroidResource Include="Resources\layout\SettingsPage.axml" />
+    <AndroidResource Include="Resources\layout\AddNewsLayout.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\plus_empty.png" />
+    <AndroidResource Include="Resources\layout\DescriptionPage.axml" />
+    <AndroidResource Include="Resources\layout\PhotoGrid.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\demo1.jpg" />
+    <AndroidResource Include="Resources\drawable\demo2.jpg" />
+    <AndroidResource Include="Resources\drawable\demo3.jpg" />
+    <AndroidResource Include="Resources\layout\SearchListPage.axml" />
+    <AndroidResource Include="Resources\layout\Popup.xml" />
+    <AndroidResource Include="Resources\drawable\bg.jpg" />
+    <AndroidResource Include="Resources\drawable\closebutton.png" />
+    <AndroidResource Include="Resources\drawable\loadpic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\layout\action_bar.axml" />
+    <AndroidResource Include="Resources\drawable\selector.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\news.png" />
+    <AndroidResource Include="Resources\drawable\search.png" />
+    <AndroidResource Include="Resources\drawable\settings.png" />
+    <AndroidResource Include="Resources\layout\ProfilePage.axml" />
+    <AndroidResource Include="Resources\layout\LoginPage.axml" />
+    <AndroidResource Include="Resources\layout\SignUpPage.axml" />
+    <AndroidResource Include="Resources\drawable\home.png" />
+    <AndroidResource Include="Resources\drawable\about.png" />
+    <AndroidResource Include="Resources\layout\NewsPage.axml" />
+    <AndroidResource Include="Resources\layout\AboutPage.axml" />
+    <AndroidResource Include="Resources\layout\News.axml" />
+    <AndroidResource Include="Resources\layout\news_list.axml" />
+    <AndroidResource Include="Resources\drawable\plusbuttonfinal.png" />
+    <AndroidResource Include="Resources\drawable\Mybutton.xml" />
+    <AndroidResource Include="Resources\layout\SearchPage.axml" />
+    <AndroidResource Include="Resources\drawable\mybutton2.xml" />
+    <AndroidResource Include="Resources\drawable\file_edit.png" />
+    <AndroidResource Include="Resources\drawable\edit_pictogram.png" />
+    <AndroidResource Include="Resources\drawable\tripit.jpg" />
+    <AndroidResource Include="Resources\mipmap-hdpi\tripit.jpg" />
+    <AndroidResource Include="Resources\mipmap-mdpi\tripit.jpg" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\tripit.jpg" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\tripit.jpg" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\tripit.jpg" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Connections\" />
+    <Folder Include="Database\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Insights.1.12.3\build\MonoAndroid10\Xamarin.Insights.targets" Condition="Exists('..\packages\Xamarin.Insights.1.12.3\build\MonoAndroid10\Xamarin.Insights.targets')" />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ProgressBarStyle.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\check_symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\close_button.png" />
+  </ItemGroup>
+</Project>

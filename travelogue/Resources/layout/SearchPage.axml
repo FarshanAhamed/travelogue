@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcover"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="100">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="--SEARCH--"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:layout_gravity="fill_vertical"
+            android:paddingTop="5dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:id="@+id/linearLayout1">
+            <EditText
+                android:layout_weight="80"
+                android:layout_width="0dp"
+                android:layout_height="45.5dp"
+                android:id="@+id/txtSearch"
+                android:hint="  Search.."
+                android:gravity="fill"
+                android:background="@drawable/textbackground"
+                android:layout_marginLeft="8.5dp"
+                android:layout_marginRight="5dp"
+                android:textColorHint="#ffc4c2c2"
+                android:textColor="#ff000000" />
+            <ImageButton
+                android:src="@drawable/searchbg"
+                android:layout_weight="20"
+                android:layout_width="0dp"
+                android:layout_height="46.0dp"
+                android:id="@+id/btnSearchList"
+                android:scaleType="centerInside"
+                android:clickable="true"
+                android:background="@drawable/mybutton2"
+                android:layout_marginRight="5dp"
+                android:padding="3dp" />
+        </LinearLayout>
+        <ProgressBar xmlns:tools="http://schemas.android.com/tools"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="60.5dp"
+            android:id="@+id/progressBar"
+            tools:visibility="visible" />
+        <TextView
+            android:text="No Results Found."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNoResult"
+            android:gravity="center"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:visibility="gone" />
+        <ScrollView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView1">
+            <ListView
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/searchList" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

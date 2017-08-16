@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.CrossPlacePicker</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.CrossPlacePicker.CrossPlacePicker">
+            <summary>
+            Cross platform CrossPlacePicker implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.CrossPlacePicker.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+    </members>
+</doc>

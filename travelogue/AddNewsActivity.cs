@@ -17,7 +17,8 @@ using Android.Graphics;
 using Android.Views.InputMethods;
 using System.Collections.Generic;
 using Android.Provider;
-
+using Plugin.CrossPlacePicker;
+using static Android.App.AlertDialog;
 
 namespace travelogue
 {
@@ -46,13 +47,13 @@ namespace travelogue
             SetContentView(Resource.Layout.AddNewsLayout);
             ActionBar.Hide();
             Place = FindViewById<EditText>(Resource.Id.txtPlace);
-			Topic = FindViewById<EditText> (Resource.Id.txtTopic);
-			Addrlat = FindViewById<EditText> (Resource.Id.txtAddrlat);
-			Addrlon = FindViewById<EditText> (Resource.Id.txtAddrlon);
-			Description = FindViewById<EditText>(Resource.Id.txtDesc);
- 			ImageSpace = FindViewById<ImageView>(Resource.Id.ImageOne);
-		//	image[1] = FindViewById<ImageView>(Resource.Id.ImageTwo);
-		//	image[2] = FindViewById<ImageView>(Resource.Id.ImageThree);
+            Topic = FindViewById<EditText>(Resource.Id.txtTopic);
+            Addrlat = FindViewById<EditText>(Resource.Id.txtAddrlat);
+            Addrlon = FindViewById<EditText>(Resource.Id.txtAddrlon);
+            Description = FindViewById<EditText>(Resource.Id.txtDesc);
+            ImageSpace = FindViewById<ImageView>(Resource.Id.ImageOne);
+            //	image[1] = FindViewById<ImageView>(Resource.Id.ImageTwo);
+            //	image[2] = FindViewById<ImageView>(Resource.Id.ImageThree);
             GetAddress = FindViewById<Button>(Resource.Id.btnGetAdd);
             btnAdd = FindViewById<Button>(Resource.Id.btnSave);
             btnDiscard = FindViewById<Button>(Resource.Id.btnCancel);
@@ -62,9 +63,9 @@ namespace travelogue
             btnDiscard.Click += BtnDiscard_Click;
             btnAdd.Click += BtnAdd_Click;
             GetAddress.Click += GetAddress_Click;
-			ImageSpace.Click += BtnImage_Click;
-			//image[1].Click += BtnImage_Click;
-			//image[2].Click+= BtnImage_Click;
+            ImageSpace.Click += BtnImage_Click;
+            //image[1].Click += BtnImage_Click;
+            //image[2].Click+= BtnImage_Click;
 
 
         }
@@ -72,28 +73,43 @@ namespace travelogue
         private async void GetAddress_Click(object sender, EventArgs e)
         {
 
-        try
+            try
             {
-                var locator = CrossGeolocator.Current;
-                locator.DesiredAccuracy = 50;
-
-                position = await locator.GetPositionAsync(timeoutMilliseconds: 10000);
-                Toast.MakeText(this, "Location saved", ToastLength.Long).Show();
-
+                var result = await CrossPlacePicker.Current.Display();
+                if (result != null)
+                {
+                    Builder alert = new Builder(this);
+                    alert.SetTitle(result.Name);
+                    alert.SetMessage("Latitude: " + result.Coordinates.Latitude + "\nLongitude: " + result.Coordinates.Longitude);
+                }
             }
-            catch
+            catch (Exception ex)
             {
-                Toast.MakeText(this, "Location Error", ToastLength.Short).Show();
+                Toast.MakeText(this,"Error: "+ ex.ToString(),ToastLength.Short).Show();
             }
 
-			/*var builder = new PlacePicker.IntentBuilder();
+            /* try
+                 {
+                     var locator = CrossGeolocator.Current;
+                     locator.DesiredAccuracy = 50;
+
+                     position = await locator.GetPositionAsync(timeoutMilliseconds: 10000);
+                     Toast.MakeText(this, "Location saved", ToastLength.Long).Show();
+
+                 }
+                 catch
+                 {
+                     Toast.MakeText(this, "Location Error", ToastLength.Short).Show();
+                 }*/
+
+            /*var builder = new PlacePicker.IntentBuilder();
 			StartActivityForResult(builder.Build(this), PLACE_PICKER_REQUEST);
 
 			 PLACE_PICKER_REQUEST = 1;
 			PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();*/
 
-			//Context context = getApplicationContext();
-		//	StartActivityForResult(builder.Build(this), PLACE_PICKER_REQUEST);
+            //Context context = getApplicationContext();
+            //	StartActivityForResult(builder.Build(this), PLACE_PICKER_REQUEST);
         }
 
 

@@ -7,7 +7,8 @@ public class GoogleMap_OnInfoWindowCloseListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.gms.maps.GoogleMap.OnInfoWindowCloseListener
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onInfoWindowClose:(Lcom/google/android/gms/maps/model/Marker;)V:GetOnInfoWindowClose_Lcom_google_android_gms_maps_model_Marker_Handler:Android.Gms.Maps.GoogleMap/IOnInfoWindowCloseListenerInvoker, Xamarin.GooglePlayServices.Maps\n" +
@@ -31,7 +32,7 @@ public class GoogleMap_OnInfoWindowCloseListenerImplementor
 
 	private native void n_onInfoWindowClose (com.google.android.gms.maps.model.Marker p0);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

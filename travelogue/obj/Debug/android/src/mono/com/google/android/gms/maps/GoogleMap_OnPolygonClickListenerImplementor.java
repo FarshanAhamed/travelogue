@@ -7,7 +7,8 @@ public class GoogleMap_OnPolygonClickListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.gms.maps.GoogleMap.OnPolygonClickListener
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onPolygonClick:(Lcom/google/android/gms/maps/model/Polygon;)V:GetOnPolygonClick_Lcom_google_android_gms_maps_model_Polygon_Handler:Android.Gms.Maps.GoogleMap/IOnPolygonClickListenerInvoker, Xamarin.GooglePlayServices.Maps\n" +
@@ -31,7 +32,7 @@ public class GoogleMap_OnPolygonClickListenerImplementor
 
 	private native void n_onPolygonClick (com.google.android.gms.maps.model.Polygon p0);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

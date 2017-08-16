@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.CrossPlacePicker.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.CrossPlacePicker.Abstractions.CoordinateBounds">
+            <summary>
+            Generation or Consuming Coordinate Bounds
+            </summary>
+        </member>
+        <member name="M:Plugin.CrossPlacePicker.Abstractions.CoordinateBounds.#ctor">
+            <summary>
+            Empty Constructor
+            </summary>
+        </member>
+        <member name="M:Plugin.CrossPlacePicker.Abstractions.CoordinateBounds.#ctor(Plugin.CrossPlacePicker.Abstractions.Coordinates,Plugin.CrossPlacePicker.Abstractions.Coordinates)">
+            <summary>
+            Setup Coordinate Bounds with SouthWest and NorthEast Coordinates
+            </summary>
+            <param name="southwest"></param>
+            <param name="northeast"></param>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.CoordinateBounds.Southwest">
+            <summary>
+            Northeast corner of the bound. 
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.CoordinateBounds.Northeast">
+            <summary>
+            Northeast corner of the bound. 
+            </summary>
+        </member>
+        <member name="T:Plugin.CrossPlacePicker.Abstractions.Coordinates">
+            <summary>
+            Generate or Consume Coordinates.
+            </summary>
+        </member>
+        <member name="M:Plugin.CrossPlacePicker.Abstractions.Coordinates.#ctor">
+            <summary>
+            Empty Constructor
+            </summary>
+        </member>
+        <member name="M:Plugin.CrossPlacePicker.Abstractions.Coordinates.#ctor(System.Double,System.Double)">
+            <summary>
+            Create Coordinates with Latitude and Longitude of type double.
+            </summary>
+            <param name="Latitude"></param>
+            <param name="Longitude"></param>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.Coordinates.Latitude">
+            <summary>
+            Latitude, in degrees. This value is in the range [-90, 90]. 
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.Coordinates.Longitude">
+            <summary>
+            Longitude, in degrees. This value is in the range [-180, 180]. 
+            </summary>
+        </member>
+        <member name="T:Plugin.CrossPlacePicker.Abstractions.ICrossPlacePicker">
+            <summary>
+            Interface for CrossPlacePicker
+            </summary>
+        </member>
+        <member name="M:Plugin.CrossPlacePicker.Abstractions.ICrossPlacePicker.Display(Plugin.CrossPlacePicker.Abstractions.CoordinateBounds)">
+            <summary>
+            Display Place Picker UI and Listen for Place Picked Event
+            </summary>
+        </member>
+        <member name="T:Plugin.CrossPlacePicker.Abstractions.PlacePickedEventArgs">
+            <summary>
+            Event Arguments for Place Picked Event
+            </summary>
+        </member>
+        <member name="M:Plugin.CrossPlacePicker.Abstractions.PlacePickedEventArgs.#ctor(System.Int32,System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="error"></param>
+        </member>
+        <member name="M:Plugin.CrossPlacePicker.Abstractions.PlacePickedEventArgs.#ctor(System.Int32,System.Boolean,Plugin.CrossPlacePicker.Abstractions.Places)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="isCanceled"></param>
+            <param name="places"></param>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.PlacePickedEventArgs.RequestId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.PlacePickedEventArgs.IsCanceled">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.PlacePickedEventArgs.Error">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.PlacePickedEventArgs.Places">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plugin.CrossPlacePicker.Abstractions.PlacePickedEventArgs.ToTask">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Plugin.CrossPlacePicker.Abstractions.Places">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plugin.CrossPlacePicker.Abstractions.Places.#ctor">
+            <summary>
+            Empty Constructor
+            </summary>
+        </member>
+        <member name="M:Plugin.CrossPlacePicker.Abstractions.Places.#ctor(System.String,System.String,Plugin.CrossPlacePicker.Abstractions.Coordinates,System.String,System.String,System.String,System.String,System.Int32,System.Single,Plugin.CrossPlacePicker.Abstractions.CoordinateBounds)">
+            <summary>
+            Generation of Places Object
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.Places.Name">
+            <summary>
+            Returns the name of this Place. 
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.Places.PlaceId">
+            <summary>
+            Returns the unique id of this Place. 
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.Places.Coordinates">
+            <summary>
+            Returns the location of this Place.
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.Places.Phone">
+            <summary>
+            Returns the place's phone number in international format. Returns null if no phone number is known, or the place has no phone number. 
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.Places.Address">
+            <summary>
+            Returns a human readable address for this Place. May return null if the address is unknown. 
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.Places.Attributions">
+             <summary>
+            Returns the attributions to be shown to the user if data from the Place is used.
+            We recommend placing this information below any place information.
+            The attributions in HTML format, or null if there are no attributions to display.
+            <seealso>See Displaying Attributions for more details.</seealso>
+            <returns>The attributions in HTML format, or null if there are no attributions to display.</returns>
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.Places.WebUri">
+             <summary>
+            Returns the URI of the website of this Place.Returns null if no website is known.
+            This is the URI of the website maintained by the Place, if available.Note this is a third-party website not affiliated with the Places API.
+             </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.Places.PriceLevel">
+             <summary>
+            Returns the price level for this place on a scale from 0 (cheapest) to 4.
+            If no price level is known, a negative value is returned.
+            The price level of the place, on a scale of 0 to 4. The exact amount indicated by a specific value will vary from region to region.Price levels are interpreted as follows: 
+            <list type="bullet">
+            <item>
+            <description>0 — Free</description>
+            </item>
+            <item>
+            <description>1 — Inexpensive </description>
+            </item>
+            <item>
+            <description>2 — Moderate </description>
+            </item>
+            <item>
+            <description>3 — Expensive </description>
+            </item>
+            <item>
+            <description>4 — Very Expensive </description>
+            </item>
+            </list>
+             </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.Places.Rating">
+             <summary>
+            Returns the place's rating, from 1.0 to 5.0, based on aggregated user reviews.
+            If no rating is known, a negative value is returned.
+             </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.Abstractions.Places.ViewPort">
+             <summary>
+            The recommended viewport for this place.
+             May be nil if the size of the place is not known.
+            This returns a viewport of a size that is suitable for displaying this place. For example, a Place object representing a store may have a relatively small viewport, while a Place object representing a country may have a very large viewport.
+             </summary>
+        </member>
+    </members>
+</doc>

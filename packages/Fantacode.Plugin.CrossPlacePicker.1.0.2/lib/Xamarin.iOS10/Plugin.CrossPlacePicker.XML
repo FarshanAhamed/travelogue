@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.CrossPlacePicker</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.CrossPlacePicker.CrossPlacePicker">
+            <summary>
+            Cross platform CrossPlacePicker implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.CrossPlacePicker.CrossPlacePicker.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+        <member name="T:Plugin.CrossPlacePicker.CrossPlacePickerImplementation">
+            <summary>
+            Implementation for CrossPlacePicker
+            </summary>
+        </member>
+        <member name="M:Plugin.CrossPlacePicker.CrossPlacePickerImplementation.Display(Plugin.CrossPlacePicker.Abstractions.CoordinateBounds)">
+            <summary>
+            Displays Place Picker UI.
+            </summary>
+            <param name="bounds"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

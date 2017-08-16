@@ -54,53 +54,48 @@ namespace travelogue
 
 
         async void BtnLogin_Click(object sender, EventArgs e)
-        {
+		{
 
-			InputMethodManager inputManager = (InputMethodManager) this.GetSystemService(Context.InputMethodService);
+			InputMethodManager inputManager = (InputMethodManager)this.GetSystemService (Context.InputMethodService);
 
-			inputManager.HideSoftInputFromWindow(this.CurrentFocus.WindowToken, HideSoftInputFlags.NotAlways);  
+			inputManager.HideSoftInputFromWindow (this.CurrentFocus.WindowToken, HideSoftInputFlags.NotAlways);  
 
-           if (username.Text == "" || password.Text == "")
-            {
-                Toast.MakeText(this, "Fill all the fields", ToastLength.Short).Show();
-            }
-            else
-            {
-                MainLayout.Visibility = ViewStates.Gone;
-                ProgressbarHolder.Visibility = ViewStates.Visible;
-                CurrentPlatform.Init();
-                var checkuser = await MainActivity.MobileService.GetTable<User>().Where(x => x.username == username.Text).ToListAsync();
-                if (checkuser.Count == 1)
-                {
-                    //username found
-                    if (checkuser[0].password == password.Text)
-                    {
-                        Toast.MakeText(this, "Successfully logged in", ToastLength.Short).Show();
-                        ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
-                        ISharedPreferencesEditor editor = prefs.Edit();
-                        editor.PutString("user", checkuser[0].username);
-                        editor.PutBoolean("LoggedIn", true);
-                        editor.Apply();        // applies changes asynchronously on newer APIs 
+			if (username.Text == "" || password.Text == "") {
+				Toast.MakeText (this, "Fill all the fields", ToastLength.Short).Show ();
+			} else {
+				try {
+					MainLayout.Visibility = ViewStates.Gone;
+					ProgressbarHolder.Visibility = ViewStates.Visible;
+					CurrentPlatform.Init ();
+					var checkuser = await MainActivity.MobileService.GetTable<User> ().Where (x => x.username == username.Text).ToListAsync ();
+					if (checkuser.Count == 1) {
+						//username found
+						if (checkuser [0].password == password.Text) {
+							Toast.MakeText (this, "Successfully logged in", ToastLength.Short).Show ();
+							ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences (this);
+							ISharedPreferencesEditor editor = prefs.Edit ();
+							editor.PutString ("user", checkuser [0].username);
+							editor.PutBoolean ("LoggedIn", true);
+							editor.Apply ();        // applies changes asynchronously on newer APIs 
 
-                        StartActivity(typeof(ProfileActivity));
-                    }
-                    else
-                    {
+							StartActivity (typeof(ProfileActivity));
+						} else {
+							ProgressbarHolder.Visibility = ViewStates.Gone;
+							MainLayout.Visibility = ViewStates.Visible;
+							Toast.MakeText (this, "Username/password is incorrect", ToastLength.Long).Show ();
+
+						}
+					} else {
+						MainLayout.Visibility = ViewStates.Visible;
 						ProgressbarHolder.Visibility = ViewStates.Gone;
-                        MainLayout.Visibility = ViewStates.Visible;
-                         Toast.MakeText(this, "Username/password is incorrect", ToastLength.Long).Show();
+						Toast.MakeText (this, "Username/password is incorrect", ToastLength.Long).Show ();
 
-                    }
-                }
-                else
-                {
-                    MainLayout.Visibility = ViewStates.Visible;
-                    ProgressbarHolder.Visibility = ViewStates.Gone;
-                    Toast.MakeText(this, "Username/password is incorrect", ToastLength.Long).Show();
-
-                }
-            }
-        }
+					}
+				} catch (Exception ex) {
+					Toast.MakeText (this, "Error: " + ex.Message.ToString (), ToastLength.Long).Show ();
+				}
+			}
+		}
         public override void OnBackPressed()
         {
             //do nothing

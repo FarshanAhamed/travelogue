@@ -1,94 +1,139 @@
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\travelogue.dll.config
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\travelogue.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\travelogue.pdb
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\com.companyname.travelogue.apk
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\com.companyname.travelogue-Signed.apk
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Facebook.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.CurrentActivity.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.Abstractions.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.Permissions.Abstractions.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\System.Net.Http.Extensions.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\System.Net.Http.Primitives.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Xamarin.Android.Support.v4.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Xamarin.Insights.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.CurrentActivity.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.Permissions.Abstractions.pdb
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.Permissions.Abstractions.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.Permissions.Abstractions.dll.mdb
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\System.Net.Http.Extensions.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\System.Net.Http.Primitives.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Xamarin.Insights.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.pdb
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.dll.mdb
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.Abstractions.pdb
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.Abstractions.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.Abstractions.dll.mdb
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\travelogue.csprojResolveAssemblyReference.cache
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\travelogue.dll
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\travelogue.pdb
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\android\bin\com.companyname.travelogue.apk
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\profileeditlayout.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\bgproject.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\bgproject1.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\bgcover.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\bgactionbar.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\textbackground.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\searchbg.png
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\settingspage.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\addnewslayout.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\plus_empty.png
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\descriptionpage.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\photogrid.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\demo1.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\demo2.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\demo3.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\searchlistpage.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\popup.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\bg.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\closebutton.png
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\main.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\values\strings.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\action_bar.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\selector.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\news.png
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\search.png
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\settings.png
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\profilepage.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\loginpage.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\signuppage.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\home.png
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\about.png
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\newspage.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\aboutpage.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\news.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\news_list.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\plusbuttonfinal.png
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\mybutton.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\layout\searchpage.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\mybutton2.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\file_edit.png
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\edit_pictogram.png
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\tripit.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\mipmap-hdpi\tripit.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\mipmap-mdpi\tripit.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\mipmap-xhdpi\tripit.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\mipmap-xxhdpi\tripit.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\mipmap-xxxhdpi\tripit.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\mipmap-hdpi\icon.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\progressbarstyle.xml
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\check_symbol.png
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\close_button.png
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\R.cs.flag
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\uploadflags.txt
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\res\drawable\loadpic.jpg
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\obj\Debug\travelogue.dll.mdb
-C:\Users\Farshan\Documents\Projects\travelogue\travelogue\bin\Debug\travelogue.dll.mdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\travelogue.csprojResolveAssemblyReference.cache
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.Android.Support.Annotations.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Places.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.Utils.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.Android.Support.Media.Compat.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.Android.Support.Fragment.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.Android.Support.v4.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.Android.Support.Vector.Drawable.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Basement.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Tasks.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Base.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Maps.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\travelogue.dll.config
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\travelogue.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\travelogue.pdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\com.companyname.travelogue.apk
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\com.companyname.travelogue-Signed.apk
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Microsoft.Azure.Mobile.Client.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.CrossPlacePicker.Abstractions.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.CrossPlacePicker.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.CurrentActivity.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.Abstractions.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.Permissions.Abstractions.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.Android.Support.Annotations.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.Android.Support.Compat.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.Android.Support.Fragment.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.GooglePlayServices.Base.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.GooglePlayServices.Places.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.GooglePlayServices.Tasks.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.Insights.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Microsoft.Azure.Mobile.Client.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.CrossPlacePicker.pdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.CrossPlacePicker.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.CrossPlacePicker.dll.mdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.CrossPlacePicker.Abstractions.pdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.CrossPlacePicker.Abstractions.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.CrossPlacePicker.Abstractions.dll.mdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.CurrentActivity.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.Permissions.Abstractions.pdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.Permissions.Abstractions.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.Permissions.Abstractions.dll.mdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.Insights.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.pdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.dll.mdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.Abstractions.pdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.Abstractions.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Plugin.Geolocator.Abstractions.dll.mdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\travelogue.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\travelogue.pdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\android\bin\com.companyname.travelogue.apk
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\profileeditlayout.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\bgproject.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\bgproject1.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\bgcover.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\bgactionbar.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\textbackground.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\searchbg.png
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\settingspage.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\addnewslayout.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\plus_empty.png
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\descriptionpage.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\photogrid.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\demo1.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\demo2.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\demo3.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\searchlistpage.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\popup.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\bg.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\closebutton.png
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\loadpic.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\main.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\values\strings.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\action_bar.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\selector.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\news.png
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\search.png
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\settings.png
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\profilepage.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\loginpage.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\signuppage.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\home.png
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\about.png
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\newspage.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\aboutpage.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\news.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\news_list.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\plusbuttonfinal.png
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\mybutton.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\layout\searchpage.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\mybutton2.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\file_edit.png
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\edit_pictogram.png
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\tripit.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\mipmap-hdpi\tripit.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\mipmap-mdpi\tripit.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\mipmap-xhdpi\tripit.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\mipmap-xxhdpi\tripit.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\mipmap-xxxhdpi\tripit.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\mipmap-hdpi\icon.jpg
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\progressbarstyle.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\check_symbol.png
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\res\drawable\close_button.png
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\R.cs.flag
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\uploadflags.txt
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Xamarin.Android.Support.CustomTabs.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\XbdMerge\Xamarin.Android.Support.CustomTabs.dll.stamp
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\PCLCrypto.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\PCLCrypto.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\PInvoke.BCrypt.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\PInvoke.BCrypt.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Validation.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\Validation.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\PInvoke.Windows.Core.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\PInvoke.Windows.Core.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\PInvoke.Kernel32.dll
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\PInvoke.Kernel32.xml
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\obj\Debug\travelogue.dll.mdb
+C:\Users\fffar\Documents\farshu backup\Projects\travelogue\travelogue\bin\Debug\travelogue.dll.mdb

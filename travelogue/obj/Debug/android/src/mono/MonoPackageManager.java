@@ -17,10 +17,20 @@ public class MonoPackageManager {
 	static Object lock = new Object ();
 	static boolean initialized;
 
+	static android.content.Context Context;
+
 	public static void LoadApplication (Context context, ApplicationInfo runtimePackage, String[] apks)
 	{
 		synchronized (lock) {
+			if (context instanceof android.app.Application) {
+				Context = context;
+			}
 			if (!initialized) {
+				android.content.IntentFilter timezoneChangedFilter  = new android.content.IntentFilter (
+						android.content.Intent.ACTION_TIMEZONE_CHANGED
+				);
+				context.registerReceiver (new mono.android.app.NotifyTimeZoneChanges (), timezoneChangedFilter);
+				
 				System.loadLibrary("monodroid");
 				Locale locale       = Locale.getDefault ();
 				String language     = locale.getLanguage () + "-" + locale.getCountry ();
@@ -44,9 +54,17 @@ public class MonoPackageManager {
 							"Android/data/" + context.getPackageName () + "/files/.__override__").getAbsolutePath (),
 						MonoPackageManager_Resources.Assemblies,
 						context.getPackageName ());
+				
+				mono.android.app.ApplicationRegistration.registerApplications ();
+				
 				initialized = true;
 			}
 		}
+	}
+
+	public static void setContext (Context context)
+	{
+		// Ignore; vestigial
 	}
 
 	static String getNativeLibraryPath (Context context)
@@ -79,73 +97,43 @@ public class MonoPackageManager {
 
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
+		/* We need to ensure that "travelogue.dll" comes first in this list. */
 		"travelogue.dll",
-		"Facebook.dll",
-		"Microsoft.WindowsAzure.Mobile.dll",
-		"Microsoft.WindowsAzure.Mobile.Ext.dll",
+		"Microsoft.Azure.Mobile.Client.dll",
+		"Newtonsoft.Json.dll",
+		"PCLCrypto.dll",
+		"PInvoke.BCrypt.dll",
+		"PInvoke.Kernel32.dll",
+		"PInvoke.Windows.Core.dll",
+		"Plugin.CrossPlacePicker.Abstractions.dll",
+		"Plugin.CrossPlacePicker.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Geolocator.Abstractions.dll",
 		"Plugin.Geolocator.dll",
 		"Plugin.Permissions.Abstractions.dll",
 		"System.Net.Http.Extensions.dll",
 		"System.Net.Http.Primitives.dll",
+		"Validation.dll",
+		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
+		"Xamarin.Android.Support.Annotations.dll",
+		"Xamarin.Android.Support.Compat.dll",
+		"Xamarin.Android.Support.Core.UI.dll",
+		"Xamarin.Android.Support.Core.Utils.dll",
+		"Xamarin.Android.Support.CustomTabs.dll",
+		"Xamarin.Android.Support.Fragment.dll",
+		"Xamarin.Android.Support.Media.Compat.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
+		"Xamarin.Android.Support.Vector.Drawable.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Maps.dll",
+		"Xamarin.GooglePlayServices.Places.dll",
+		"Xamarin.GooglePlayServices.Tasks.dll",
 		"Xamarin.Insights.dll",
-		"System.Collections.Concurrent.dll",
-		"System.Collections.dll",
-		"System.ComponentModel.Annotations.dll",
-		"System.ComponentModel.dll",
-		"System.ComponentModel.EventBasedAsync.dll",
-		"System.Diagnostics.Contracts.dll",
-		"System.Diagnostics.Debug.dll",
-		"System.Diagnostics.Tools.dll",
-		"System.Diagnostics.Tracing.dll",
-		"System.Dynamic.Runtime.dll",
-		"System.Globalization.dll",
-		"System.IO.dll",
-		"System.Linq.dll",
-		"System.Linq.Expressions.dll",
-		"System.Linq.Parallel.dll",
-		"System.Linq.Queryable.dll",
-		"System.Net.NetworkInformation.dll",
-		"System.Net.Primitives.dll",
-		"System.Net.Requests.dll",
-		"System.ObjectModel.dll",
-		"System.Reflection.dll",
-		"System.Reflection.Emit.dll",
-		"System.Reflection.Emit.ILGeneration.dll",
-		"System.Reflection.Emit.Lightweight.dll",
-		"System.Reflection.Extensions.dll",
-		"System.Reflection.Primitives.dll",
-		"System.Resources.ResourceManager.dll",
-		"System.Runtime.dll",
-		"System.Runtime.Extensions.dll",
-		"System.Runtime.InteropServices.dll",
-		"System.Runtime.InteropServices.WindowsRuntime.dll",
-		"System.Runtime.Numerics.dll",
-		"System.Runtime.Serialization.Json.dll",
-		"System.Runtime.Serialization.Primitives.dll",
-		"System.Runtime.Serialization.Xml.dll",
-		"System.Security.Principal.dll",
-		"System.ServiceModel.Http.dll",
-		"System.ServiceModel.Primitives.dll",
-		"System.ServiceModel.Security.dll",
-		"System.Text.Encoding.dll",
-		"System.Text.Encoding.Extensions.dll",
-		"System.Text.RegularExpressions.dll",
-		"System.Threading.dll",
-		"System.Threading.Tasks.dll",
-		"System.Threading.Tasks.Parallel.dll",
-		"System.Threading.Timer.dll",
-		"System.Xml.ReaderWriter.dll",
-		"System.Xml.XDocument.dll",
-		"System.Xml.XmlSerializer.dll",
-		"System.ServiceModel.Internals.dll",
-		"Newtonsoft.Json.dll",
 		"Plugin.Permissions.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_24";
 }

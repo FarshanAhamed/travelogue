@@ -1,24 +1,33 @@
-﻿<Properties StartupItem="travelogue\travelogue.csproj" RefactoringSettings.EnableRefactorings="True">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (Marshmallow)" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="travelogue\Helper.cs">
+﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="travelogue\travelogue.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Farshan\Documents\Projects\travelogue\travelogue\LogInActivity.cs" line="70" column="1" />
+      <Breakpoint file="C:\Users\Farshan\Documents\Projects\travelogue\travelogue\Resources\SearchPageActivity.cs" line="83" column="1" />
+      <Breakpoint file="C:\Users\Farshan\Documents\Projects\travelogue\travelogue\Resources\SearchPageActivity.cs" line="84" column="1" />
+      <Breakpoint file="C:\Users\Farshan\Documents\Projects\travelogue\travelogue\Resources\SearchPageActivity.cs" line="88" column="1" />
+      <Breakpoint file="C:\Users\Farshan\Documents\Projects\travelogue\travelogue\Resources\SearchPageActivity.cs" line="85" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="travelogue\packages.config">
     <Files>
-      <File FileName="travelogue\Resources\SearchPageActivity.cs" Line="1" Column="1" />
+      <File FileName="travelogue\Resources\SearchPageActivity.cs" Line="84" Column="1" />
       <File FileName="travelogue\AboutPageActivity.cs" Line="1" Column="1" />
       <File FileName="travelogue\AddNewsActivity.cs" Line="1" Column="1" />
       <File FileName="travelogue\ProfileEditPage.cs" Line="1" Column="1" />
       <File FileName="travelogue\ProfileActivity.cs" Line="1" Column="1" />
       <File FileName="travelogue\Models\User.cs" Line="1" Column="1" />
-      <File FileName="..\..\..\..\..\Program Files (x86)\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\Program Files (x86)\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets" Line="12" Column="1" />
       <File FileName="travelogue\SearchListActivity.cs" Line="1" Column="1" />
       <File FileName="travelogue\SignUpActivity.cs" Line="1" Column="1" />
       <File FileName="travelogue\NewsList.cs" Line="1" Column="1" />
       <File FileName="travelogue\DescriptionActivity.cs" Line="1" Column="1" />
-      <File FileName="travelogue\Helper.cs" Line="57" Column="5" />
+      <File FileName="travelogue\Helper.cs" Line="1" Column="1" />
+      <File FileName="travelogue\LogInActivity.cs" Line="70" Column="1" />
+      <File FileName="travelogue\MainActivity.cs" Line="15" Column="2" />
+      <File FileName="travelogue\packages.config" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.travelogue AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar.Fullscreen" />
+  <MonoDevelop.Ide.ItemProperties.travelogue AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar.Fullscreen" PreferredExecutionTarget="Android.Nexus 4 (Marshmallow)" />
 </Properties>
